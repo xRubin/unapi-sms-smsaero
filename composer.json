@@ -1,0 +1,21 @@
+{
+    "name": "unapi/sms-smsaero",
+    "description": "Unapi https://smsaero.ru/ sms service wrapper",
+    "keywords": ["unapi", "guzzle", "promise", "sms", "smsaero.ru"],
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "unapi/sms-common": "^1.1.1",
+        "psr/log": "^1.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "unapi\\sms\\smsaero\\": "src"
+        }
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
